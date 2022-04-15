@@ -16,7 +16,7 @@
   /* 2 */
   border-style: solid;
   /* 2 */
-  border-color: #e5e7eb;
+  border-color: currentColor;
   /* 2 */
 }
 
@@ -42,7 +42,7 @@ html {
   -o-tab-size: 4;
      tab-size: 4;
   /* 3 */
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: Outfit, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   /* 4 */
 }
 
@@ -466,4 +466,116 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-opacity:  ;
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.w-80 {
+  width: 20rem;
+}
+
+.rounded-2xl {
+  border-radius: 1rem;
+}
+
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+
+.border-0 {
+  border-width: 0px;
+}
+
+.bg-lgt-gray {
+  --tw-bg-opacity: 1;
+  background-color: rgb(213 225 239 / var(--tw-bg-opacity));
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.p-3\.5 {
+  padding: 0.875rem;
+}
+
+.p-3 {
+  padding: 0.75rem;
+}
+
+.px-3\.5 {
+  padding-left: 0.875rem;
+  padding-right: 0.875rem;
+}
+
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.font-sans {
+  font-family: Outfit, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.text-1xl {
+  font-size: 1.40rem;
+}
+
+.text-sm {
+  font-size: 0.935rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.leading-7 {
+  line-height: 1.75rem;
+}
+
+.leading-5 {
+  line-height: 1.25rem;
+}
+
+.text-dark-navy {
+  --tw-text-opacity: 1;
+  color: rgb(31 49 79 / var(--tw-text-opacity));
+}
+
+.text-med-gray {
+  --tw-text-opacity: 1;
+  color: rgb(125 136 158 / var(--tw-text-opacity));
+}
+
+.antialiased {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  --colors-blue: #2C7DFA;
+  --colors-blue-shade: #3685FF;
+  --colors-dark-navy: #1F314F;
+  --colors-gray: #7D889E;
+  --colors-light-gray: #D5E1EF;
+  --colors-white: #FFFFFF;
 }
